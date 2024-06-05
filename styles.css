@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    border: 2px solid #61dafb;
+    background-color: #111;
+    display: block;
+    margin: 20px auto;
+}
+.score {
+    font-size: 24px;
+    margin: 10px;
+}
+.game-over {
+    font-size: 36px;
+    color: red;
+}
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game-over button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game-over button:hover {
+    background-color: #0056b3;
+}
